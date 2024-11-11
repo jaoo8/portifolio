@@ -1,0 +1,30 @@
+@import url(   );
+
+:root {
+    --cor-principal:  #6E859F;
+    --cor-segundaria: #284260;
+    --cor-destaque: #C92BFC;
+}
+
+body {
+    font-family: 'Chakra petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1 h2 h{
+    color: var(--cor-segundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link {
+    color: var(--cor-principal);
+}
+
+a:hover{
+    color: var(--cor-destaque)
+}
